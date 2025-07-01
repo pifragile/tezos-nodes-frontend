@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { MapContainer, TileLayer, Marker, Popup } from "react-leaflet";
 import "leaflet/dist/leaflet.css";
+import './fixLeafletIcons.jsx'
 
 const NodeLocationsMap = () => {
     const [locations, setLocations] = useState([]);
