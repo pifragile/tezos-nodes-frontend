@@ -9,7 +9,7 @@ const NodeLocationsMap = () => {
         const fetchLocations = async () => {
             try {
                 const response = await fetch(
-                    "http://api.pigu.ch/tezos/node-locations"
+                    "https://api.pigu.ch/tezos/node-locations"
                 );
                 const data = await response.json();
                 const parsed = data
